@@ -1,0 +1,14 @@
+{
+  "posts": [
+	{ "id": 1, "title": "lawn mower", "user": "shmeckle331", "imageUrl": "" },
+    { "id": 2, "title": "above ground pool", "user": "kittenCuddle", "imageUrl": "" },
+    { "id": 3, "title": "stand up paddle board", "user": "mando5", "imageUrl": "" },
+    { "id": 4, "title": "coffee maker", "author": "rutherFordMoke94", "imageUrl": "" }
+  ],
+  "users": [
+	  {"id": 1, "name": "shmeckle331"},
+	  {"id": 2, "name": "kittenCuddle"},
+	  {"id": 3, "name": "mando5"},
+	  {"id": 4, "name": "rutherFordMoke94"}
+  ]
+}

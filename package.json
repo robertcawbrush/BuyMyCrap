@@ -17,7 +17,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+	"start": "react-scripts start",
+	"server": "json-server --watch ./backend/db.json --port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,5 +45,5 @@
   "main": "index.tsx",
   "devDependencies": {},
   "author": "robertcawbrush",
-  "license": "ISC"
+  "license": "none"
 }
