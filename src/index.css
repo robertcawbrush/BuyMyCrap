@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+	object-fit: contain;
+	max-width: 600px;
+}
+
+a, p, h1,h2,h3{
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-value {
+	flex: 1;
+}
+.navlinkActive {
+	color: orange;
+}
+
+.navlink {
+	margin-left: 20px;
+}
+
+.well {
+	border: #f0f0f0 1px solid;
+	border-radius: 20px;
+	background-color: #f0f0f0;
+	margin: 20px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	.hideOnSmallScreen {
+		display: none;
+	}
+}
