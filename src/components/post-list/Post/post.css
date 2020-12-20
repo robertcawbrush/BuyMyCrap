@@ -1,0 +1,10 @@
+.postDescription {
+	border-bottom: gray 2px solid;
+	padding-bottom: 10px;
+}
+
+.postTags {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

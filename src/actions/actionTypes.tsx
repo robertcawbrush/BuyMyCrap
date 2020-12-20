@@ -1,0 +1,6 @@
+const ACTION_TYPES = {
+	GET_POST: "GET_POST",
+	GET_POSTS: "GET_POSTS"
+}
+
+export default ACTION_TYPES;
