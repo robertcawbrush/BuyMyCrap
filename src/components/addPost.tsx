@@ -10,7 +10,8 @@ export const AddPost: React.FC = (props: any) => {
         onSubmit={(data) => console.log(data)}
       >
         {({ values, handleChange, handleBlur, handleSubmit }) => {
-          <form onSubmit={handleSubmit}>
+          return (
+		  <form onSubmit={handleSubmit}>
             <TextField
               name="firstName"
               value={values.firstName}
@@ -18,6 +19,7 @@ export const AddPost: React.FC = (props: any) => {
               onBlur={handleBlur}
             />
           </form>;
+		  )
         }}
       </Formik>
     </div>
