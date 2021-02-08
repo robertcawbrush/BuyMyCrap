@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 .postDescription {
 	border-bottom: gray 2px solid;
 	padding-bottom: 10px;
@@ -7,4 +9,9 @@
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 20px;
+}
+
+img {
+	 max-width: $wellWidth - 50px;
+	 cursor: pointer;
 }

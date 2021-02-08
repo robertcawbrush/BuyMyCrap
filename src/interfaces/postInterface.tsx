@@ -5,4 +5,6 @@ export default interface IPost {
 	imageUrl: string
 	user: string
 	datePosted: Date
+	email: string
+	phone?: string
 }

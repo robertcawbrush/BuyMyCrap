@@ -31,18 +31,11 @@ function PostList(props: any) {
 		props.history.push('/post/' + id);
 	}
 
-	const postlistStyle: Object = {
-		flexDirection: 'row',
-		flexWrap: 'wrap',
-		justifyContent: 'space-around',
-		alignContent: 'center'
-	}
-
 	return (<>
-		<div className="flex-container" style={postlistStyle}>
+		<div className="row" style={{ display: 'flex', justifyContent: "center",alignItems: 'center' } }>
 			{posts.map((post: IPost) => {
 				return (
-					<Post style={{flex: 1}} key={post['id']} post={post} goToPostDetail={goToPostDetail}></Post>
+					<Post className="col-md-6" key={post['id']} post={post} goToPostDetail={goToPostDetail} />
 				)
 			})
 			}

@@ -12,7 +12,8 @@ let _post: IPost = {
 	description: '',
 	imageUrl: '',
 	user: '',
-	datePosted: new Date('01/01/1970')
+	datePosted: new Date('01/01/1970'),
+	email: ''
 };
 
 class PostStore extends EventEmitter {
